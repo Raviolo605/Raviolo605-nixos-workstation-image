@@ -1,0 +1,21 @@
+# Build artefacts
+iso/
+result
+result-*
+
+# Nix
+.direnv/
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit these
+*.age
+*.key
+secrets/
